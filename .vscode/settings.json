@@ -1,0 +1,13 @@
+{
+    "chat.tools.terminal.autoApprove": {
+        "/^\\$folders = Get-ChildItem Sources -Directory \\| Sort-Object Name; \\$summary = foreach\\(\\$f in \\$folders\\)\\{ \\$files = Get-ChildItem \\$f\\.FullName -Recurse -File -ErrorAction SilentlyContinue; \\$ext = \\$files \\| Group-Object Extension \\| Sort-Object Count -Descending \\| Select-Object -First 8 @\\{n='Ext';e=\\{\\$_\\.Name\\}\\},Count; \\[PSCustomObject\\]@\\{ Folder=\\$f\\.Name; FileCount=\\$files\\.Count; SubFolderCount=\\(Get-ChildItem \\$f\\.FullName -Directory -ErrorAction SilentlyContinue\\)\\.Count; HasReadme=\\(Test-Path \\(Join-Path \\$f\\.FullName 'README\\.md'\\)\\); TopExtensions=\\(\\$ext \\| ForEach-Object \\{\"\\$\\(\\$_\\.Ext\\):\\$\\(\\$_\\.Count\\)\"\\}\\) -join ', ' \\} \\}; \\$summary \\| ConvertTo-Json -Depth 4$/": {
+            "approve": true,
+            "matchCommandLine": true
+        },
+        "/^\\$folders = Get-ChildItem Sources -Directory \\| Sort-Object Name; \\$result = foreach\\(\\$f in \\$folders\\)\\{ \\$all = Get-ChildItem \\$f\\.FullName -Recurse -File -ErrorAction SilentlyContinue; \\$src = \\$all \\| Where-Object \\{ \\$_\\.Extension -in @\\('\\.s','\\.S','\\.asm','\\.ASM','\\.i','\\.def'\\) \\} \\| Sort-Object Name; \\$assets = \\$all \\| Where-Object \\{ \\$_\\.Extension -notin @\\('\\.s','\\.S','\\.asm','\\.ASM','\\.i','\\.def'\\) \\} \\| Group-Object Extension \\| Sort-Object Count -Descending \\| Select-Object -First 4; \\[PSCustomObject\\]@\\{ Folder=\\$f\\.Name; Files=\\$all\\.Count; SourceFiles=\\$src\\.Count; NotableSources=\\(\\(\\$src \\| Select-Object -First 6 -ExpandProperty Name\\) -join ', '\\); AssetTypes=\\(\\(\\$assets \\| ForEach-Object \\{ if\\(\\[string\\]::IsNullOrWhiteSpace\\(\\$_\\.Name\\)\\)\\{ '\\[noext\\]:'\\+\\$_\\.Count \\} else \\{ \\$_\\.Name\\+':'\\+\\$_\\.Count \\} \\}\\) -join ', '\\) \\} \\}; \\$result \\| ConvertTo-Json -Depth 4$/": {
+            "approve": true,
+            "matchCommandLine": true
+        },
+        "Group-Object": true
+    }
+}

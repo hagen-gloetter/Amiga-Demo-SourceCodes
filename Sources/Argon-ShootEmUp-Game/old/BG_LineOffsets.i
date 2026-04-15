@@ -1,0 +1,21 @@
+
+BG_LineOffset0		dc.l	Hintergrund+00*PF1_Breite*32*4
+BG_LineOffset1		dc.l	Hintergrund+01*PF1_Breite*32*4
+BG_LineOffset2		dc.l	Hintergrund+02*PF1_Breite*32*4
+BG_LineOffset3		dc.l	Hintergrund+03*PF1_Breite*32*4
+BG_LineOffset4		dc.l	Hintergrund+04*PF1_Breite*32*4
+BG_LineOffset5		dc.l	Hintergrund+05*PF1_Breite*32*4
+BG_LineOffset6		dc.l	Hintergrund+06*PF1_Breite*32*4
+BG_LineOffset7		dc.l	Hintergrund+07*PF1_Breite*32*4
+BG_LineOffset8		dc.l	Hintergrund+08*PF1_Breite*32*4
+BG_LineOffset9		dc.l	Hintergrund+09*PF1_Breite*32*4
+BG_LineOffset10		dc.l	Hintergrund+10*PF1_Breite*32*4
+BG_LineOffset11		dc.l	Hintergrund+11*PF1_Breite*32*4
+BG_LineOffset12		dc.l	Hintergrund+12*PF1_Breite*32*4
+BG_LineOffset13		dc.l	Hintergrund+13*PF1_Breite*32*4
+BG_LineOffset14		dc.l	Hintergrund+14*PF1_Breite*32*4
+BG_LineOffset15		dc.l	Hintergrund+15*PF1_Breite*32*4
+BG_LineOffset16		dc.l	Hintergrund+16*PF1_Breite*32*4
+BG_LineOffset17		dc.l	Hintergrund+17*PF1_Breite*32*4
+BG_LineOffset18		dc.l	Hintergrund+18*PF1_Breite*32*4
+BG_LineOffset19		dc.l	Hintergrund+19*PF1_Breite*32*4

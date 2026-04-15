@@ -1,0 +1,5 @@
+
+	dc.w	$0000,$0000	SPRxPOS,SPRxCTL
+	dc.w	$c000,$0000
+	dc.w	$c000,$0000
+	dc.w	$0000,$0000	Sprite End

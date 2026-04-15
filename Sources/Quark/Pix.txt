@@ -1,0 +1,12 @@
+Motion	368x168
+is	64x64
+proud	80x16
+to	64x44
+present	80x24
+A	64x50
+new	112x30
+Intro	320x80
+called	192x30
+Think	240x80
+about	240x80
+it	128x80

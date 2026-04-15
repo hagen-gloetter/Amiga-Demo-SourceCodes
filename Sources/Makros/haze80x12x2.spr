@@ -1,0 +1,21 @@
+;	HazeSprite 80x12x2
+Spr1:	dc.w	$0000,$0000	; SPRxPOS,SPRxCTL
+	dc.w	$ffff,$0000,$ffff,$0000,$ff7a,$00fd,$fdee,$03f1,$f7be,$0fc1
+	dc.w	$dfff,$3fff,$dfff,$e000,$f7be,$f87f,$fdee,$fe1f,$ff7a,$ff87
+	dc.w	$ffff,$ffff,$ffff,$ffff,$0000,$0000
+Spr2:	dc.w	$0000,$0000
+	dc.w	$ffff,$0000,$ffff,$0000,$fef7,$e1f8,$ff7b,$e0fc,$ffbd,$e07e
+	dc.w	$ffde,$e03f,$fbaf,$1c70,$f777,$18f8,$efff,$1000,$ffff,$0000
+	dc.w	$ffff,$ffff,$ffff,$ffff,$0000,$0000
+Spr3:	dc.w	$0000,$0000
+	dc.w	$ffff,$1fff,$ffff,$1fff,$ffff,$0000,$efff,$1000,$f75f,$18e0
+	dc.w	$ffbd,$1fc3,$7ef7,$e1f8,$bdeb,$63f7,$d7ff,$2fff,$ffff,$1fff
+	dc.w	$ffff,$e000,$ffff,$e000,$0000,$0000
+Spr4:	dc.w	$0000,$0000
+	dc.w	$ffff,$ffff,$ffff,$ffff,$ffff,$0000,$cfff,$3000,$77be,$f871
+	dc.w	$fbdf,$fc3f,$fbdf,$07e0,$b7be,$cfcf,$cfff,$ffff,$ffff,$ffff
+	dc.w	$ffff,$0000,$ffff,$0000,$0000,$0000
+Spr5:	dc.w	$0000,$0000
+	dc.w	$f000,$f000,$f000,$f000,$b000,$7000,$7000,$f000,$f000,$f000
+	dc.w	$f000,$f000,$f000,$0000,$f000,$0000,$7000,$8000,$b000,$c000
+	dc.w	$f000,$0000,$f000,$0000,$0000,$0000

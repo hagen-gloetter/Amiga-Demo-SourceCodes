@@ -1,0 +1,75 @@
+
+	dc.w	$0000,$0000	SPRxPOS,SPRxCTL
+	dc.w	$0000,$0000
+	dc.w	$7f80,$3f00
+	dc.w	$7386,$6186
+	dc.w	$6f9f,$679f
+	dc.w	$7786,$6386
+	dc.w	$7fc0,$3f80
+	dc.w	$0000,$0000
+	dc.w	$0000,$0000
+	dc.w	$0000,$0000
+	dc.w	$0000,$0000
+	dc.w	$0000,$0000
+	dc.w	$0000,$0000
+	dc.w	$0000,$0000	Sprite End
+
+	dc.w	$0000,$0000	SPRxPOS,SPRxCTL
+	dc.w	$0000,$0000
+	dc.w	$3f9b,$1f99
+	dc.w	$381b,$301b
+	dc.w	$bfdb,$9f99
+	dc.w	$01d8,$00d8
+	dc.w	$3fdb,$3f9b
+	dc.w	$0000,$0000
+	dc.w	$0000,$0000
+	dc.w	$0000,$0000
+	dc.w	$0000,$0000
+	dc.w	$0000,$0000
+	dc.w	$0000,$0000
+	dc.w	$0000,$0000	Sprite End
+
+	dc.w	$0000,$0000	SPRxPOS,SPRxCTL
+	dc.w	$0000,$0000
+	dc.w	$f99e,$f98c
+	dc.w	$81bc,$0198
+	dc.w	$fdfe,$f9fc
+	dc.w	$1d8e,$0d86
+	dc.w	$fd86,$f986
+	dc.w	$0000,$0000
+	dc.w	$0000,$0000
+	dc.w	$0000,$0000
+	dc.w	$0000,$0000
+	dc.w	$0000,$0000
+	dc.w	$0000,$0000
+	dc.w	$0000,$0000	Sprite End
+
+	dc.w	$0000,$0000	SPRxPOS,SPRxCTL
+	dc.w	$0000,$0000
+	dc.w	$ff00,$7e00
+	dc.w	$c700,$c300
+	dc.w	$c300,$c300
+	dc.w	$c700,$c300
+	dc.w	$ff00,$7e00
+	dc.w	$0000,$0000
+	dc.w	$0000,$0000
+	dc.w	$0000,$0000
+	dc.w	$0000,$0000
+	dc.w	$0000,$0000
+	dc.w	$0000,$0000
+	dc.w	$0000,$0000	Sprite End
+
+	dc.w	$0000,$0000	SPRxPOS,SPRxCTL
+	dc.w	$0000,$0000
+	dc.w	$0000,$0000
+	dc.w	$0000,$0000
+	dc.w	$0000,$0000
+	dc.w	$0000,$0000
+	dc.w	$0000,$0000
+	dc.w	$0000,$0000
+	dc.w	$0000,$0000
+	dc.w	$0000,$0000
+	dc.w	$0000,$0000
+	dc.w	$0000,$0000
+	dc.w	$0000,$0000
+	dc.w	$0000,$0000	Sprite End
